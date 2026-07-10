@@ -3,7 +3,7 @@ import ConnectionPanel from './components/ConnectionPanel';
 import ChatArea from './components/ChatArea';
 import { DatabaseZap } from 'lucide-react';
 
-const API_BASE = '/api';
+const API_BASE = import.meta.env.VITE_API_BASE || '/api';
 
 function App() {
   const [isConnected, setIsConnected] = useState(false);
