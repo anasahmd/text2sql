@@ -35,3 +35,5 @@ coverage/
 # Misc
 .cache/
 tmp/
+
+seed-postgres.js
